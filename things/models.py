@@ -12,7 +12,7 @@ class Thing(models.Model):
     description = models.CharField(
         max_length=120,
         unique=False,
-        blank=False
+        blank=True
     )
     quantity = models.IntegerField(
         unique=False,
